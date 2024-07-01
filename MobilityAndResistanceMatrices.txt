@@ -1,0 +1,44 @@
+Applying the same method of fitting the mobility matrix to the experimental data as in this paper https://doi.org/10.1038/s42005-024-01537-5) yields the following non-dimensional mobility matrix:
+
+0.0980142	0.0000000	0.000952923	0.0000000	0.000421192	0.0000000
+0.0000000	0.0895689	0.0000000	0.0309895	0.0000000	0.00152478
+0.000952923	0.0000000	0.0779909	0.0000000	-0.00301007	0.0000000
+0.0000000	0.0309895	0.0000000	?????????	0.0000000,	?????????
+0.000421192	0.0000000	-0.00301007	0.0000000	??????????	0.0000000,
+0.0000000	0.00152478	0.0000000	?????????	0.0000000	??????????
+
+where all 0.0000000 values are zero due to assumed symmetry of the disk and all rotational mobilities are marked ????????? as they are unknown because they do not feature in the sedimentation problem.
+
+Or, in dimensional terms and with error estimates: 
+M_11/R= (98.0 ± 0.2)/1000
+M_22/R= (89.6 ± 1.5)/1000 
+M_33/R= (78.0 ± 0.5)/1000 
+M_31/R= (0.95 ± 0.16)/1000 
+M_42/R^2= (31.0 ± 2.2)/1000 
+M_51/R^2= (0.42 ± 0.06)/1000
+M_53/R^2= (−3.01 ± 0.19)/1000 
+M_62/R^2= (1.5 ± 0.6)/1000
+
+
+Following Dr Vaquero-Stainer's numerical results for a perfectly conically deformed disk with R_{c1}=0.32 and R_{c2}=0.60R, the corresponding mobility values are:
+
+M_11/R= (96.8)/1000
+M_22/R= (84.5)/1000 
+M_33/R= (75.4)/1000 
+M_31/R= (1.26)/1000 
+M_42/R^2= (25.7)/1000 
+M_51/R^2= (1.83)/1000
+M_53/R^2= (-3.17)/1000 
+M_62/R^2= (1.02)/1000
+
+
+
+The above numerically-determined mobility entries come from taking the inverse of the resistance matrix which was computed in a Stokes simulation which used a different axis convention: the x_1 axis was the pitch axis and the x_2 axis was the roll axis,
+In this convention, the resistance matrix as produced by Dr Vaquero Stainer was:
+-12.2712 0 0 0 -1.44583 -0.176869
+0 -10.3324 0.180714 -0.181502 0 0
+0 0.180714 -13.2829 0.39422 0 0
+0 -0.181502 0.39422 -9.3088 0 0
+-1.44583 0 0 0 -4.75604 -0.210227
+-0.176869 0 0 0 -0.210227 -9.3617
+
