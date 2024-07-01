@@ -1,4 +1,4 @@
-Applying the same method of fitting the mobility matrix to the experimental data as in this paper https://doi.org/10.1038/s42005-024-01537-5) yields the following non-dimensional mobility matrix:
+Applying the same method of fitting the mobility matrix to the experimental data as in this paper https://doi.org/10.1038/s42005-024-01537-5 yields the following non-dimensional mobility matrix:
 
 0.0980142	0.0000000	0.000952923	0.0000000	0.000421192	0.0000000
 0.0000000	0.0895689	0.0000000	0.0309895	0.0000000	0.00152478
@@ -20,16 +20,16 @@ M_53/R^2= (−3.01 ± 0.19)/1000
 M_62/R^2= (1.5 ± 0.6)/1000
 
 
-Following Dr Vaquero-Stainer's numerical results for a perfectly conically deformed disk with R_{c1}=0.32 and R_{c2}=0.60R, the corresponding mobility values are:
+Following Dr Vaquero-Stainer's numerical Stokes simulations for a perfectly conically deformed disk with R_{c1}=0.32 and R_{c2}=0.60R, moving at the centre of a cubical tank of side length 100R (approximating infinite fluid) the corresponding mobility values are:
 
-M_11/R= (96.8)/1000
-M_22/R= (84.5)/1000 
-M_33/R= (75.4)/1000 
-M_31/R= (1.26)/1000 
-M_42/R^2= (25.7)/1000 
-M_51/R^2= (1.83)/1000
-M_53/R^2= (-3.17)/1000 
-M_62/R^2= (1.02)/1000
+M_11/R= 96.8/1000
+M_22/R= 84.5/1000 
+M_33/R= 75.4/1000 
+M_31/R= 1.26/1000 
+M_42/R^2= 25.7/1000 
+M_51/R^2= 1.83/1000
+M_53/R^2= -3.17/1000 
+M_62/R^2= 1.02/1000
 
 
 
